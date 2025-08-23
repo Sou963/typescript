@@ -1,17 +1,11 @@
-let firstName: string = "Mukta";
-let lastName: string = "Bosu";
-let age: number = 50;
-let isMarried: boolean = true;
-let hobbies: Array<number> = [1, 2, 3, 4, 5];
+let number:number=42.0;
+let bool: boolean=true;
+let num1:number=10.0;
+let result:number=number+num1;
+console.log(result);
 
-function view(): void {
-    console.log("This is a function");
+function add(a:number,b:number){
+    let sum;
+    return sum=a+b;
 }
-
-let fullname: string = firstName.concat(" ", lastName);
-
-console.log("The name is", fullname);
-console.log("The age is",age);
-console.log("Married:",isMarried);
-console.log("Hobbies:",hobbies);
-view();
+console.log(add(20,30));
