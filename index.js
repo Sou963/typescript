@@ -1,10 +1,14 @@
-// let user:string | number;
-// user="Mukta";
-// user=41220300439;
-//let try it in fuuction
-function viewInfo(user) {
-    console.log(user);
+var firstName = "Mukta";
+var lastName = "Bosu";
+var age = 50;
+var isMarried = true;
+var hobbies = [1, 2, 3, 4, 5];
+function view() {
+    console.log("This is a function");
 }
-viewInfo("mukta");
-viewInfo(41220300439);
-viewInfo(true);
+var fullname = firstName.concat(" ", lastName);
+console.log("The name is", fullname);
+console.log("The age is", age);
+console.log("Married:", isMarried);
+console.log("Hobbies:", hobbies);
+view();
